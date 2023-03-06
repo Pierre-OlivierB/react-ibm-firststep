@@ -2,15 +2,23 @@ import "./bootstrap.min.css";
 
 function App() {
   return (
-    <>
-      <img src="./logo192.png" width={42} height={42} alt="logo" />
-      <h1 className="title">Projet 1</h1>
-      <ul className="list-group">
-        <li className="list-group-item">Partie 1</li>
-        <li className="list-group-item">Partie 2</li>
-        <li className="list-group-item">Partie 3</li>
+    <div className=" container bg-secondary">
+      <h2 className="text-warning">Contenu</h2>
+      <ul className="list-group bg-secondary">
+        <li className="list-group-item bg-secondary rounded border border-primary">
+          Partie 1
+        </li>
+        <li className="list-group-item bg-secondary rounded border border-primary">
+          Partie 2
+        </li>
+        <li className="list-group-item bg-secondary rounded border border-primary">
+          Partie 3
+        </li>
+        <li className="list-group-item bg-secondary rounded border border-primary">
+          Partie 4
+        </li>
       </ul>
-    </>
+    </div>
   );
 }
 
