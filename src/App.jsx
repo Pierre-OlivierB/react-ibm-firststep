@@ -3,7 +3,7 @@ import "./bootstrap.min.css";
 function App() {
   return (
     <div className=" container bg-secondary">
-      <h2 className="text-warning">Contenu</h2>
+      <h2 className="text-white">Contenu</h2>
       <ul className="list-group bg-secondary">
         <li className="list-group-item bg-secondary rounded border border-primary">
           Partie 1
